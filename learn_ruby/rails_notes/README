@@ -1,0 +1,46 @@
+# Rails Notes
+
+Wolfram Arnold's notes and slides for teaching Rails
+
+## Authors
+
+* Wolfram Arnold <wolfram@rubyfocus.biz>
+  * GitHub/Twitter/LinkedIn: wolframarnold
+
+* Alex Chaffee <mailto:alex@stinky.com>
+  * <http://alexchaffee.com>
+  * GitHub/Twitter: alexch
+
+# Showing the slides
+
+We use a Ruby app called `deck.rb` to generate and serve the slides.
+
+    gem install deckrb
+    
+After installing, run
+
+    deck *.md
+
+This will launch a local Sinatra server on port 4333. Open your browser to `localhost:4333`. On a Mac you can run:
+
+    open http://localhost:4333
+
+Use arrow keys to navigate slides. Press '?' to see a help window.
+
+# Editing slides
+
+Slides are in [Markdown](http://daringfireball.net/projects/markdown/syntax) format. Showoff will read all `.md` files in alphabetical order.
+
+You can also add custom `.css`, `.scss`, and `.js` files, which will get imported into all slide sections.
+
+Images should be in, or relative to, the directory that the source markdown file is in.
+
+## Based upon and/or inspired by
+
+* [Michael Hartl'l Rails Tutorial](http://ruby.railstutorial.org/)
+
+# LICENSE
+
+This project is under an open source license. We're not sure exactly which one... probably MIT.
+
+Michael Hartl's material and all excerpts included herein are under copyright and provided under fair use so long you've purchased a copy of the Rails Tutorial.
